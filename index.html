@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/modernizr-2.6.1.min.js"></script>    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/lean-slider.js"></script>
+    <link rel="stylesheet" href="css/lean-slider.css" type="text/css" />
+    <link rel="stylesheet" href="css/sample-styles.css" type="text/css" />
+</head>
+
+<body>
+<!--<div class="circle"></div>-->
+<div class="logo">
+	<img src="images/logo.png" width="100px" height="100px" alt=""/>
+</div>
+<div class="nav">
+	<div class="link">
+		<a href="#"><div>Home</div></a>
+		<a href="#"><div>About Me</div></a>
+		<a href="#"><div>My Tips</div></a>
+	</div>
+</div>
+	
+<div class="body_container">
+	<div class="slider">
+		<div class="container">
+			<div class="slider-wrapper">
+				<div id="slider">
+					<div class="slide1">
+						<img src="images/photo-1504754524776-8f4f37790ca0.jpeg" alt="" />
+					</div>
+					<div class="slide2">
+						<img src="images/photo-1428660386617-8d277e7deaf2.jpeg" alt="" />
+					</div>
+					<div class="slide3">
+						<img src="images/photo-1464195085758-89f3e55e821e.jpeg" alt="" />
+					</div>
+					<div class="slide4">
+						<img src="images/joseph-gonzalez-457393-unsplash.jpg" alt="" />
+					</div>
+				</div>
+				<div id="slider-direction-nav"></div>
+				<div id="slider-control-nav"></div>
+			</div>
+		</div>
+				<div class="socmed">
+			<a href="#"> <img src="images/twitter.png" width="25" height="25"></a> 
+			<a href="#"> <img src="images/Untitled-1.png" width="25" height="25" ></a>
+			<a href="#"> <img src="images/ig.png" width="25" height="25"></a>
+		</div>
+	</div>
+	<div class="hello">
+	<h1>hej!</h1>
+	<h2>hello!</h2>
+	<p>I'm Biancha and welcome to my website! This space is where I share food photography and any kind of tips about culinary.</p>
+</div>
+		
+</div>
+
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var slider = $('#slider').leanSlider({
+            directionNav: '#slider-direction-nav',
+            controlNav: '#slider-control-nav'
+        });
+    });
+    </script>
+    
+    <footer>
+	<div class="footer">
+		<div class="copyright">
+		  <p>Copyright 2018 &copy; Biancha Crystianty Kuncoro.</p>
+		</div>
+  </div>
+</footer>
+</body>
+</html>
+
